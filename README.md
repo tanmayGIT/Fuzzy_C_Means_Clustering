@@ -78,3 +78,5 @@ The new fuzzy local neighborhood factor can automatically determine the spatial 
 [4] H. L. Capitaine, C. Fre ́licot, M. Laboratoire, I. A, and U. D. L. Rochelle, “A fast fuzzy c-means algorithm for color image segmentation,” no. July, 2011. (https://hal.archives-ouvertes.fr/hal-00738414/document)
 
 [5] W. Cai, S. Chen, and D. Zhang, “Fast and robust fuzzy c-means clustering algorithms incorporating local information for image segmentation,” vol. 40, pp. 825–838, 2007. (https://www.sciencedirect.com/science/article/pii/S0031320306003451)
+
+* N.B :  Contents of this page are taken from [1][3]
