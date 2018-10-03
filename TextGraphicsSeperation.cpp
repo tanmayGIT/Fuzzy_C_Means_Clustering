@@ -32,9 +32,18 @@
 
 int main(int argc, char** argv) {
 
-    cout << "You have entered " << argc << " arguments:" << "\n";
-    cout << "Image Path is : " << argv[1] << "\n";  // just pass the image path as the input argument
+    cout << "You have entered " << argc << " arguments" << "\n";
+    if (argc < 2) {
+        std::cerr << "Usage:    " << argv[0] << "       --- You should provide File Path here" << std::endl;
+        return 1;
+    }
 
+/*  **********************  ##########     Important Info       ##########  ***************************
+ * just pass the image path as the input argument. In CLion, if I have to pass one argument (file path) only,
+ * it considers it as 2nd argument. I don't understand the reason. So, when you run this code from terminal or other IDE
+ * then be careful and change :  argv[1]   --->  argv[0]
+ * */
+    cout << "Image Path is : " << argv[1] << "\n";
     Mat imgOrig = imread(argv[1]); // imread("/Users/tmondal/Documents/wheel.png");
     if( imgOrig.empty())
     {
