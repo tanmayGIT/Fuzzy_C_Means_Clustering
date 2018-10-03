@@ -69,12 +69,12 @@ The new fuzzy local neighborhood factor can automatically determine the spatial 
 
 ### References 
 
-[1] W. Cai and D. Zhang, “Fast and Robust Fuzzy C-Means Clustering Algorithms Incorporating Local Information for Image Segmentation,” vol. 2, pp. 1–27.
+[1] W. Cai and D. Zhang, “Fast and Robust Fuzzy C-Means Clustering Algorithms Incorporating Local Information for Image Segmentation,” vol. 2, pp. 1–27. (http://parnec.nuaa.edu.cn/papers/journal/2007/wcai-PR07.pdf)
 
-[2] T. Lei, X. Jia, Y. Zhang, S. Member, L. He, and S. Member, “Significantly Fast and Robust Fuzzy C-Means Clustering Algorithm Based on Morphological Reconstruction and Membership Filtering,”, pp. 1–15, 2017.
+[2] T. Lei, X. Jia, Y. Zhang, S. Member, L. He, and S. Member, “Significantly Fast and Robust Fuzzy C-Means Clustering Algorithm Based on Morphological Reconstruction and Membership Filtering,”, pp. 1–15, 2017. (https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8265186)
 
-[3] S. Krinidis and V. Chatzis, “A Robust Fuzzy Local Information C-means Clustering Algorithm,” no. May, 2010.
+[3] S. Krinidis and V. Chatzis, “A Robust Fuzzy Local Information C-means Clustering Algorithm,” no. May, 2010. (https://www.researchgate.net/publication/41101870_A_Robust_Fuzzy_Local_Information_C-Means_Clustering_Algorithm)
 
-[4] H. L. Capitaine, C. Fre ́licot, M. Laboratoire, I. A, and U. D. L. Rochelle, “A fast fuzzy c-means algorithm for color image segmentation,” no. July, 2011.
+[4] H. L. Capitaine, C. Fre ́licot, M. Laboratoire, I. A, and U. D. L. Rochelle, “A fast fuzzy c-means algorithm for color image segmentation,” no. July, 2011. (https://hal.archives-ouvertes.fr/hal-00738414/document)
 
-[5] W. Cai, S. Chen, and D. Zhang, “Fast and robust fuzzy c -means cluster- ing algorithms incorporating local information for image segmentation,” vol. 40, pp. 825–838, 2007.
+[5] W. Cai, S. Chen, and D. Zhang, “Fast and robust fuzzy c-means clustering algorithms incorporating local information for image segmentation,” vol. 40, pp. 825–838, 2007. (https://www.sciencedirect.com/science/article/pii/S0031320306003451)
