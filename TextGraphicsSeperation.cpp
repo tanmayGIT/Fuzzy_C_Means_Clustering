@@ -42,37 +42,41 @@ int main(int argc, char** argv) {
         return -1;
     }
 
-    Mat outputFuzzyImg;
+    Mat outputClusteredImg;
     auto start = chrono::steady_clock::now();
 
 
-  //  Fuzzy_C_Means_S1::getInstance()->applyAlgoOnImage(imgOrig, outputFuzzyImg);
-  //  Fuzzy_C_Means_S2::getInstance()->applyAlgoOnImage(imgOrig, outputFuzzyImg);
+  //  Fuzzy_C_Means_S1::getInstance()->applyAlgoOnImage(imgOrig, outputClusteredImg);
+  //  Fuzzy_C_Means_S2::getInstance()->applyAlgoOnImage(imgOrig, outputClusteredImg);
 
 
 
-  //  Fuzzy_C_Means_M1::getInstance()->applyAlgoOnImage(imgOrig, outputFuzzyImg);
+  //  Fuzzy_C_Means_M1::getInstance()->applyAlgoOnImage(imgOrig, outputClusteredImg);
 
 
 
-  //  Fuzzy_C_Means_FGfsm::getInstance()->applyAlgoOnImage(imgOrig, outputFuzzyImg);
-  //  Fuzzy_C_Means_FGfsm_S1::getInstance()->applyAlgoOnImage(imgOrig, outputFuzzyImg);
-  //  Fuzzy_C_Means_FGfsm_S2::getInstance()->applyAlgoOnImage(imgOrig, outputFuzzyImg);
+  //  Fuzzy_C_Means_FGfsm::getInstance()->applyAlgoOnImage(imgOrig, outputClusteredImg);
+  //  Fuzzy_C_Means_FGfsm_S1::getInstance()->applyAlgoOnImage(imgOrig, outputClusteredImg);
+  //  Fuzzy_C_Means_FGfsm_S2::getInstance()->applyAlgoOnImage(imgOrig, outputClusteredImg);
 
 
 
-    Fuzzy_C_Means_FLIcm::getInstance()->applyAlgoOnImage(imgOrig, outputFuzzyImg);
+    Fuzzy_C_Means_FLIcm::getInstance()->applyAlgoOnImage(imgOrig, outputClusteredImg);
 
 
 
-  //  Fuzzy_C_Means_ENFCM::getInstance()->applyAlgoOnImage(imgOrig, outputFuzzyImg);
+  //  Fuzzy_C_Means_ENFCM::getInstance()->applyAlgoOnImage(imgOrig, outputClusteredImg);
 
 
+    //  *****************    K-Means Clustering   *********************
+/*    int clusterCount = 5; Mat labels; int attempts = 5; Mat centers;
+    K_Means_Clustering::getInstance()->applyOpenCV_KMeans_2(imgOrig, labels, centers, clusterCount, attempts, outputClusteredImg );*/
 
-    BasicAlgo::getInstance()->showImage(outputFuzzyImg);
+
+    BasicAlgo::getInstance()->showImage(outputClusteredImg);
+
+
     auto end = chrono::steady_clock::now();
     auto diff = end - start;
     cout << chrono::duration <double, milli> (diff).count() << " ms time taken for execution" << endl;
-
 }
-
