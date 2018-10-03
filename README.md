@@ -29,9 +29,11 @@ The following Fuzzy-C-Means Clustering algos are implemented here :
 
 
 
+
+
 #
 # Further Reading..
-#
+
 
 # Introduction 
 Image segmentation is widely used in a variety of applications such as robot vision, object recognition, geographical imaging and medical imaging. Classically, image segmentation is defined as the partitioning of an image into non-overlapped, consistent regions which are homogeneous with respect to some characteristics such as gray value or texture.
